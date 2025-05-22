@@ -1,0 +1,400 @@
+{
+  "tables": [
+    {
+      "name": "Monthly Sales",
+      "type": "barChart",
+      "columns": [
+        {
+          "name": "Month",
+          "dataType": "string"
+        },
+        {
+          "name": "Sales",
+          "dataType": "number"
+        },
+        {
+          "name": "Profit",
+          "dataType": "number"
+        }
+      ],
+      "rows": [
+        {
+          "Month": "Jan",
+          "Sales": 182896,
+          "Profit": 4454671
+        },
+        {
+          "Month": "Feb",
+          "Sales": 3654444,
+          "Profit": 384233
+        },
+        {
+          "Month": "Mar",
+          "Sales": 10701006,
+          "Profit": 126524
+        },
+        {
+          "Month": "Apr",
+          "Sales": 922328,
+          "Profit": 130142
+        },
+        {
+          "Month": "May",
+          "Sales": 1827965,
+          "Profit": 128433
+        },
+        {
+          "Month": "New Month",
+          "Sales": 5834383,
+          "Profit": 2030819
+        },
+        {
+          "Month": "New Month",
+          "Sales": 5863027,
+          "Profit": 290031
+        },
+        {
+          "Month": "New Month",
+          "Sales": 1412548,
+          "Profit": 4111610
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [],
+        "removedRows": []
+      }
+    },
+    {
+      "name": "Quarterly Revenue",
+      "type": "lineChart",
+      "columns": [
+        {
+          "name": "Quarter",
+          "dataType": "string"
+        },
+        {
+          "name": "Revenue",
+          "dataType": "number"
+        },
+        {
+          "name": "Expenses",
+          "dataType": "number"
+        }
+      ],
+      "rows": [
+        {
+          "Quarter": "Q1",
+          "Revenue": 611878,
+          "Expenses": 1317644
+        },
+        {
+          "Quarter": "Q2",
+          "Revenue": 10216997,
+          "Expenses": 3874314
+        },
+        {
+          "Quarter": "Q3",
+          "Revenue": 1063002,
+          "Expenses": 9828767
+        },
+        {
+          "Quarter": "Q4",
+          "Revenue": 5275484,
+          "Expenses": 46871241
+        },
+        {
+          "Quarter": "New Quarter",
+          "Revenue": 2061059,
+          "Expenses": 2325435
+        },
+        {
+          "Quarter": "New Quarter",
+          "Revenue": 13634770,
+          "Expenses": 7401201
+        },
+        {
+          "Quarter": "New Quarter",
+          "Revenue": 17325113,
+          "Expenses": 15065171
+        },
+        {
+          "Quarter": "New Quarter",
+          "Revenue": 13160746,
+          "Expenses": 19408831
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [],
+        "removedRows": []
+      }
+    },
+    {
+      "name": "Product Market Share",
+      "type": "pieChart",
+      "columns": [
+        {
+          "name": "Product",
+          "dataType": "string"
+        },
+        {
+          "name": "Share",
+          "dataType": "number"
+        }
+      ],
+      "rows": [
+        {
+          "Product": "Product A",
+          "Share": 1
+        },
+        {
+          "Product": "Product B",
+          "Share": 39
+        },
+        {
+          "Product": "Product C",
+          "Share": 6
+        },
+        {
+          "Product": "Product D",
+          "Share": 16
+        },
+        {
+          "Product": "Product E",
+          "Share": 1
+        },
+        {
+          "Product": "New Product",
+          "Share": 6
+        },
+        {
+          "Product": "New Product",
+          "Share": 28
+        },
+        {
+          "Product": "New Product",
+          "Share": 10
+        },
+        {
+          "Product": "New Product",
+          "Share": 11
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [
+          8
+        ],
+        "removedRows": []
+      }
+    },
+    {
+      "name": "Sales vs. Marketing Spend",
+      "type": "scatterPlot",
+      "columns": [
+        {
+          "name": "Sales",
+          "dataType": "number"
+        },
+        {
+          "name": "MarketingSpend",
+          "dataType": "number"
+        }
+      ],
+      "rows": [
+        {
+          "Sales": 3971236,
+          "MarketingSpend": 145772
+        },
+        {
+          "Sales": 453286,
+          "MarketingSpend": 27475
+        },
+        {
+          "Sales": 9362479,
+          "MarketingSpend": 134645
+        },
+        {
+          "Sales": 126726473,
+          "MarketingSpend": 5325585
+        },
+        {
+          "Sales": 28588056,
+          "MarketingSpend": 146459
+        },
+        {
+          "Sales": 1824920,
+          "MarketingSpend": 203484
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [],
+        "removedRows": []
+      }
+    },
+    {
+      "name": "Employee Performance",
+      "type": "table",
+      "columns": [
+        {
+          "name": "Employee",
+          "dataType": "string"
+        },
+        {
+          "name": "Sales",
+          "dataType": "number"
+        },
+        {
+          "name": "Region",
+          "dataType": "string"
+        },
+        {
+          "name": "TargetAchieved",
+          "dataType": "string"
+        }
+      ],
+      "rows": [
+        {
+          "Employee": "John Doe",
+          "Sales": 677748,
+          "Region": "North",
+          "TargetAchieved": "Yes"
+        },
+        {
+          "Employee": "Jane Smith",
+          "Sales": 285451,
+          "Region": "South",
+          "TargetAchieved": "Yes"
+        },
+        {
+          "Employee": "Alice Johnson",
+          "Sales": 12784867,
+          "Region": "East",
+          "TargetAchieved": "No"
+        },
+        {
+          "Employee": "Bob Brown",
+          "Sales": 237765,
+          "Region": "West",
+          "TargetAchieved": "Yes"
+        },
+        {
+          "Employee": "New Employee",
+          "Sales": 966769,
+          "Region": "New Region",
+          "TargetAchieved": "No"
+        },
+        {
+          "Employee": "New Employee",
+          "Sales": 3403530,
+          "Region": "New Region",
+          "TargetAchieved": "Yes"
+        },
+        {
+          "Employee": "New Employee",
+          "Sales": 1640716,
+          "Region": "New Region",
+          "TargetAchieved": "No"
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [],
+        "removedRows": []
+      }
+    },
+    {
+      "name": "Customer Satisfaction",
+      "type": "barChart",
+      "columns": [
+        {
+          "name": "Region",
+          "dataType": "string"
+        },
+        {
+          "name": "SatisfactionScore",
+          "dataType": "number"
+        }
+      ],
+      "rows": [
+        {
+          "Region": "North",
+          "SatisfactionScore": 51188
+        },
+        {
+          "Region": "South",
+          "SatisfactionScore": 484
+        },
+        {
+          "Region": "East",
+          "SatisfactionScore": 354916
+        },
+        {
+          "Region": "West",
+          "SatisfactionScore": 262356
+        },
+        {
+          "Region": "New Region",
+          "SatisfactionScore": 435591
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [],
+        "removedRows": []
+      }
+    },
+    {
+      "name": "Website Traffic",
+      "type": "lineChart",
+      "columns": [
+        {
+          "name": "Day",
+          "dataType": "string"
+        },
+        {
+          "name": "Visitors",
+          "dataType": "number"
+        },
+        {
+          "name": "PageViews",
+          "dataType": "number"
+        }
+      ],
+      "rows": [
+        {
+          "Day": "Mon",
+          "Visitors": 320917,
+          "PageViews": 30538
+        },
+        {
+          "Day": "Tue",
+          "Visitors": 40031,
+          "PageViews": 304901
+        },
+        {
+          "Day": "Wed",
+          "Visitors": 244920,
+          "PageViews": 307248
+        },
+        {
+          "Day": "Thu",
+          "Visitors": 89905,
+          "PageViews": 362424
+        },
+        {
+          "Day": "Sun",
+          "Visitors": 447370,
+          "PageViews": 480401
+        }
+      ],
+      "_changes": {
+        "modifiedRows": {},
+        "addedRows": [],
+        "removedRows": []
+      }
+    }
+  ]
+}

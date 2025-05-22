@@ -1,0 +1,17 @@
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+
+/* Custom Global Styles */
+body {
+  font-family: 'Inter', sans-serif; /* Use a custom font if desired */
+  background-color: #f3f4f6; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark Mode Global Styles */
+.dark body {
+  background-color: #111827; /* Dark background for dark mode */
+  color: #f3f4f6; /* Light text for dark mode */
+}

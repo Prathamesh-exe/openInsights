@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Card Styles */
+.custom-card {
+  border: 1px solid #e5e7eb; /* Light gray border */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Shadow */
+}
+
+/* Custom Utility Classes */
+.custom-text {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600; /* Semi-bold */
+  color: #1f2937; /* Dark gray text */
+}
+
+/* Sidebar Styles */
+aside {
+  height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+/* Chart Container Styles */
+.chart-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* Custom Scrollbar for Sidebar */
+aside::-webkit-scrollbar {
+  width: 8px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+aside::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Dark Mode Styles */
+.dark {
+  background-color: #111827; /* Dark background for dark mode */
+  color: #f3f4f6; /* Light text for dark mode */
+}
+
+.dark .custom-card {
+  border-color: #374151; /* Darker border for dark mode */
+  background-color: #1f2937; /* Dark card background */
+  color: #f3f4f6; /* Light text for dark mode */
+}
+
+.dark .custom-text {
+  color: #f3f4f6; /* Light text for dark mode */
+}
+
+.dark aside::-webkit-scrollbar-track {
+  background: #374151; /* Dark scrollbar track */
+}
+
+.dark aside::-webkit-scrollbar-thumb {
+  background: #6b7280; /* Dark scrollbar thumb */
+}
+
+.dark aside::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af; /* Dark scrollbar thumb hover */
+}
+
+.dark .chart-container {
+  background-color: #1f2937; /* Dark chart container background */
+  color: #f3f4f6; /* Light text for dark mode */
+}

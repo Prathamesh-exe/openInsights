@@ -1,0 +1,14 @@
+{
+  "tables": [
+    {
+      "product": "Product A",
+      "region": "North",
+      "sales": 100
+    },
+    {
+      "product": "Product B",
+      "region": "South",
+      "sales": 150
+    }
+  ]
+}
