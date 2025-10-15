@@ -20,47 +20,55 @@
       "rows": [
         {
           "Month": "Jan",
-          "Sales": 182896,
-          "Profit": 4454671
+          "Sales": 178737,
+          "Profit": 2146817
         },
         {
           "Month": "Feb",
-          "Sales": 3654444,
-          "Profit": 384233
+          "Sales": 2931020,
+          "Profit": 296136
         },
         {
           "Month": "Mar",
-          "Sales": 10701006,
-          "Profit": 126524
+          "Sales": 1878629,
+          "Profit": 178950
         },
         {
           "Month": "Apr",
-          "Sales": 922328,
-          "Profit": 130142
+          "Sales": 3855129,
+          "Profit": 23220
         },
         {
           "Month": "May",
-          "Sales": 1827965,
-          "Profit": 128433
+          "Sales": 860350,
+          "Profit": 607603
         },
         {
           "Month": "New Month",
-          "Sales": 5834383,
-          "Profit": 2030819
+          "Sales": 1026590,
+          "Profit": 2493050
         },
         {
           "Month": "New Month",
-          "Sales": 5863027,
-          "Profit": 290031
+          "Sales": 3033962,
+          "Profit": 100977
         },
         {
           "Month": "New Month",
-          "Sales": 1412548,
-          "Profit": 4111610
+          "Sales": 12853024,
+          "Profit": 565904
         }
       ],
       "_changes": {
-        "modifiedRows": {},
+        "modifiedRows": {
+          "0": true,
+          "1": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true
+        },
         "addedRows": [],
         "removedRows": []
       }
@@ -85,47 +93,55 @@
       "rows": [
         {
           "Quarter": "Q1",
-          "Revenue": 611878,
-          "Expenses": 1317644
+          "Revenue": 1278244,
+          "Expenses": 535287
         },
         {
           "Quarter": "Q2",
-          "Revenue": 10216997,
-          "Expenses": 3874314
+          "Revenue": 4781570,
+          "Expenses": 749361
         },
         {
           "Quarter": "Q3",
-          "Revenue": 1063002,
-          "Expenses": 9828767
+          "Revenue": 2562749,
+          "Expenses": 5019280
         },
         {
           "Quarter": "Q4",
-          "Revenue": 5275484,
-          "Expenses": 46871241
+          "Revenue": 1742458,
+          "Expenses": 73024404
         },
         {
           "Quarter": "New Quarter",
-          "Revenue": 2061059,
-          "Expenses": 2325435
+          "Revenue": 355285,
+          "Expenses": 363059
         },
         {
           "Quarter": "New Quarter",
-          "Revenue": 13634770,
-          "Expenses": 7401201
+          "Revenue": 1940706,
+          "Expenses": 3084095
         },
         {
           "Quarter": "New Quarter",
-          "Revenue": 17325113,
-          "Expenses": 15065171
+          "Revenue": 11656467,
+          "Expenses": 2732113
         },
         {
           "Quarter": "New Quarter",
-          "Revenue": 13160746,
-          "Expenses": 19408831
+          "Revenue": 23007936,
+          "Expenses": 18072155
         }
       ],
       "_changes": {
-        "modifiedRows": {},
+        "modifiedRows": {
+          "0": true,
+          "1": true,
+          "2": true,
+          "3": true,
+          "5": true,
+          "6": true,
+          "7": true
+        },
         "addedRows": [],
         "removedRows": []
       }
@@ -146,46 +162,54 @@
       "rows": [
         {
           "Product": "Product A",
-          "Share": 1
+          "Share": 8
         },
         {
           "Product": "Product B",
-          "Share": 39
+          "Share": 12
         },
         {
           "Product": "Product C",
-          "Share": 6
+          "Share": 3
         },
         {
           "Product": "Product D",
-          "Share": 16
+          "Share": 15
         },
         {
           "Product": "Product E",
-          "Share": 1
+          "Share": 15
         },
         {
           "Product": "New Product",
-          "Share": 6
+          "Share": 9
         },
         {
           "Product": "New Product",
-          "Share": 28
+          "Share": 15
         },
         {
           "Product": "New Product",
-          "Share": 10
+          "Share": 7
         },
         {
           "Product": "New Product",
-          "Share": 11
+          "Share": 16
         }
       ],
       "_changes": {
-        "modifiedRows": {},
-        "addedRows": [
-          8
-        ],
+        "modifiedRows": {
+          "0": true,
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true
+        },
+        "addedRows": [],
         "removedRows": []
       }
     },
@@ -204,32 +228,39 @@
       ],
       "rows": [
         {
-          "Sales": 3971236,
-          "MarketingSpend": 145772
+          "Sales": 14167079,
+          "MarketingSpend": 219462
         },
         {
-          "Sales": 453286,
-          "MarketingSpend": 27475
+          "Sales": 2093296,
+          "MarketingSpend": 158586
         },
         {
-          "Sales": 9362479,
-          "MarketingSpend": 134645
+          "Sales": 53194463,
+          "MarketingSpend": 103636
         },
         {
-          "Sales": 126726473,
-          "MarketingSpend": 5325585
+          "Sales": 8893295,
+          "MarketingSpend": 623831
         },
         {
-          "Sales": 28588056,
-          "MarketingSpend": 146459
+          "Sales": 21887602,
+          "MarketingSpend": 7159
         },
         {
-          "Sales": 1824920,
-          "MarketingSpend": 203484
+          "Sales": 14916,
+          "MarketingSpend": 157426
         }
       ],
       "_changes": {
-        "modifiedRows": {},
+        "modifiedRows": {
+          "0": true,
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        },
         "addedRows": [],
         "removedRows": []
       }
@@ -257,52 +288,62 @@
       ],
       "rows": [
         {
-          "Employee": "John Doe",
-          "Sales": 677748,
-          "Region": "North",
-          "TargetAchieved": "Yes"
-        },
-        {
-          "Employee": "Jane Smith",
-          "Sales": 285451,
-          "Region": "South",
-          "TargetAchieved": "Yes"
-        },
-        {
           "Employee": "Alice Johnson",
-          "Sales": 12784867,
+          "Sales": 3732584,
           "Region": "East",
           "TargetAchieved": "No"
         },
         {
           "Employee": "Bob Brown",
-          "Sales": 237765,
+          "Sales": 328135,
           "Region": "West",
-          "TargetAchieved": "Yes"
-        },
-        {
-          "Employee": "New Employee",
-          "Sales": 966769,
-          "Region": "New Region",
           "TargetAchieved": "No"
         },
         {
           "Employee": "New Employee",
-          "Sales": 3403530,
+          "Sales": 25889,
           "Region": "New Region",
           "TargetAchieved": "Yes"
         },
         {
-          "Employee": "New Employee",
-          "Sales": 1640716,
-          "Region": "New Region",
+          "Employee": "New Employee 58",
+          "Sales": 112714,
+          "Region": "East",
+          "TargetAchieved": "Yes"
+        },
+        {
+          "Employee": "New Employee 44",
+          "Sales": 77834,
+          "Region": "North",
           "TargetAchieved": "No"
+        },
+        {
+          "Employee": "New Employee 11",
+          "Sales": 929613,
+          "Region": "New Region",
+          "TargetAchieved": "Yes"
+        },
+        {
+          "Employee": "New Employee 36",
+          "Sales": 490060,
+          "Region": "East",
+          "TargetAchieved": "Yes"
         }
       ],
       "_changes": {
-        "modifiedRows": {},
-        "addedRows": [],
-        "removedRows": []
+        "modifiedRows": {
+          "0": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true
+        },
+        "addedRows": [
+          6
+        ],
+        "removedRows": [
+          4
+        ]
       }
     },
     {
@@ -321,27 +362,30 @@
       "rows": [
         {
           "Region": "North",
-          "SatisfactionScore": 51188
+          "SatisfactionScore": 56414
         },
         {
           "Region": "South",
-          "SatisfactionScore": 484
+          "SatisfactionScore": 163
         },
         {
           "Region": "East",
-          "SatisfactionScore": 354916
+          "SatisfactionScore": 133442
         },
         {
           "Region": "West",
-          "SatisfactionScore": 262356
+          "SatisfactionScore": 1452545
         },
         {
           "Region": "New Region",
-          "SatisfactionScore": 435591
+          "SatisfactionScore": 201691
         }
       ],
       "_changes": {
-        "modifiedRows": {},
+        "modifiedRows": {
+          "0": true,
+          "2": true
+        },
         "addedRows": [],
         "removedRows": []
       }
@@ -366,32 +410,37 @@
       "rows": [
         {
           "Day": "Mon",
-          "Visitors": 320917,
-          "PageViews": 30538
+          "Visitors": 25448,
+          "PageViews": 16951
         },
         {
           "Day": "Tue",
-          "Visitors": 40031,
-          "PageViews": 304901
+          "Visitors": 51008,
+          "PageViews": 163682
         },
         {
           "Day": "Wed",
-          "Visitors": 244920,
-          "PageViews": 307248
+          "Visitors": 1700658,
+          "PageViews": 926768
         },
         {
           "Day": "Thu",
-          "Visitors": 89905,
-          "PageViews": 362424
+          "Visitors": 33672,
+          "PageViews": 238642
         },
         {
           "Day": "Sun",
-          "Visitors": 447370,
-          "PageViews": 480401
+          "Visitors": 641414,
+          "PageViews": 66475
         }
       ],
       "_changes": {
-        "modifiedRows": {},
+        "modifiedRows": {
+          "0": true,
+          "1": true,
+          "2": true,
+          "3": true
+        },
         "addedRows": [],
         "removedRows": []
       }
