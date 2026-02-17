@@ -1,47 +1,150 @@
 # openInsights
 
-A modern, real-time data visualization dashboard built with React and Express. Visualize Power BI data with interactive charts, real-time updates via WebSocket, and a beautiful dark mode interface.
+## Tagline
+Real-time data visualization.
 
-## 📋 Overview
+## Overview
+openInsights is a full-stack application built with React 18, Vite, Express, Socket.IO, and ECharts. It provides users with dynamic visualizations and seamless interactions, making it easier to understand complex data.
 
-openInsights is a full-stack web application that transforms Power BI data into stunning, interactive visualizations. Built with React 18, Vite, and Express, it features real-time data synchronization using Socket.IO, multiple chart types powered by ECharts, and a responsive dark/light mode interface styled with Tailwind CSS.
+## Key Features
+- Multiple visualization types
+- Real-time updates
+- Dark mode
+- Responsive design
+- Fast performance
+- Modern UI
+- Data simulation
+- Interactive charts
+- Full/single report view
 
-## ✨ Key Features
-
-- **📊 Multiple Visualization Types**: Bar charts, line charts, pie charts, scatter plots, and data tables
-- **🔄 Real-Time Updates**: WebSocket-based live data synchronization using Socket.IO
-- **🌓 Dark Mode**: Beautiful dark/light theme with seamless transitions
-- **📱 Responsive Design**: Mobile-first design that works on all screen sizes
-- **⚡ Fast Performance**: Built with Vite for lightning-fast development and optimized builds
-- **🎨 Modern UI**: Styled with Tailwind CSS for a clean, professional interface
-- **💾 Data Simulation**: Built-in data simulation for testing and demonstrations
-- **📈 Interactive Charts**: Powered by Apache ECharts with smooth animations
-- **🔍 Full/Single Report View**: Toggle between viewing all reports or a single focused view
-
-## 🛠️ Tech Stack
-
+## Tech Stack
 ### Frontend
-- **React 18** - UI framework
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first CSS framework
-- **ECharts (via echarts-for-react)** - Interactive data visualization
-- **Socket.IO Client** - Real-time communication
-- **React Icons** - Icon library
-- **React Loader Spinner** - Loading states
+- React 18
+- Vite
+- Tailwind CSS
+- ECharts
+- Socket.IO Client
+- React Icons
+- React Loader Spinner
 
 ### Backend
-- **Express.js** - Web server framework
-- **Socket.IO** - WebSocket server for real-time updates
-- **CORS** - Cross-origin resource sharing
-- **dotenv** - Environment variable management
-- **Node.js** - Runtime environment
+- Express.js
+- Socket.IO
+- CORS
+- dotenv
+- Node.js
 
 ### Development Tools
-- **ESLint** - Code linting
-- **PostCSS** - CSS processing
-- **PropTypes** - Runtime type checking
+- ESLint
+- PostCSS
+- PropTypes
 
-## 📁 Project Structure
-
+## Project Structure
 ```
-op...
+openInsights/
+├── client/                 # Frontend code base
+│   ├── src/
+│   │   ├── components/     # React components
+│   │   ├── assets/         # Images, Fonts, etc.
+│   │   ├── App.js          # Main application
+│   │   └── index.js        # Entry point
+│   └── public/             # Static files
+├── server/                 # Backend code base
+│   ├── index.js            # Entry point for server
+│   └── routes/             # API routes
+├── .env                    # Environment variables
+└── README.md               # Documentation
+```
+
+## Getting Started
+### Prerequisites
+- Node.js (version X.X.X)
+- NPM (version X.X.X)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Prathamesh-exe/openInsights.git
+   cd openInsights
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Application
+#### Development
+```bash
+dotenv -e .env npm run start
+```
+#### Production
+```bash
+npm run build
+npm run serve
+```
+
+## Usage Guide
+### Navigation
+- The dashboard allows you to navigate through various visualization types.
+
+### Data Simulation
+- Data can be simulated using the built-in tools for testing and previewing.
+
+### Supported Chart Types
+- Line charts
+- Bar charts
+- Pie charts
+- Scatter plots
+
+### Data Format
+Example JSON format:
+```json
+{
+  "data": [
+    {"x": 1, "y": 2},
+    {"x": 2, "y": 3}
+  ]
+}
+```
+
+## API Endpoints
+### HTTP
+- `GET /api/data` - Fetches data for visualizations.
+
+### WebSocket
+- `ws://localhost:3000` - Connects to WebSocket for real-time data streams.
+
+## Customization
+- Users can customize visual settings via the settings menu.
+
+## Development Commands
+- Start development server: `npm run dev`
+- Run tests: `npm test`
+
+## Dependencies
+- Refer to `package.json` for a complete list of dependencies.
+
+## Troubleshooting Common Issues
+- Ensure all dependencies are installed.
+- Check for port conflicts.
+
+## Contributing Guidelines
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Submit a pull request.
+
+## License
+MIT
+
+## Author
+[Prathamesh-exe](https://github.com/Prathamesh-exe)
+
+## Acknowledgments
+- Thanks to the contributors and the open-source community.
+
+## Support
+For support, please open an issue on the GitHub repository.
+
+---
+Version 1.0.0
