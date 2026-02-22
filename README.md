@@ -1,7 +1,7 @@
 # openInsights
 
 ## Tagline
-Real-time data visualization.
+Real-time data visualization dashboard.
 
 ## Overview
 openInsights is a full-stack application built with React 18, Vite, Express, Socket.IO, and ECharts. It provides users with dynamic visualizations and seamless interactions, making it easier to understand complex data.
